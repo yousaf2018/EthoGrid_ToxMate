@@ -1,3 +1,5 @@
+# EthoGrid_App/workers/batch_processor.py
+
 import os, csv, json, traceback
 from collections import defaultdict
 from PyQt5.QtCore import QThread, pyqtSignal, QPointF
