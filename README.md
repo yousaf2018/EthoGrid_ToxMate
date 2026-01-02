@@ -72,8 +72,8 @@ Designed specifically to address the challenges of long-duration recordings, Eth
 This workflow demonstrates how to go from a raw video to a final statistical graph.
 
 1.  **Prepare Video (Optional)**: Use the **✂️ Video Splitter** to cut a long recording into 1-hour segments.
-2.  **Generate Tracking Data**: Use **🎨 Run YOLO Segmentation...** to run your trained model on the video segments. This produces a raw `_segmentations.csv` file for each.
-3.  **Annotate Data**: In the main window, **🎬 Load** a sample video and the corresponding `_segmentations.csv`. Interactively create and align the grid, then **💾 Save Settings** to a `grid.json` file.
+2.  **Generate Tracking Data**: Use **🎨 Run YOLO Detection...** to run your trained model on the video segments. This produces a raw `_detections.csv` file for each.
+3.  **Annotate Data**: In the main window, **🎬 Load** a sample video and the corresponding `_detections.csv`. Interactively create and align the grid, then **💾 Save Settings** to a `grid.json` file.
 4.  **Batch Process**: Use **🚀 Batch Annotation...** to apply your saved `grid.json` to all your video segments and their `_segmentations.csv` files. This will generate the final, clean `_with_tanks.csv` files.
 ---
 ## Output Files
@@ -118,6 +118,7 @@ This application was developed in the **[Laboratory of Professor Chung-Der Hsiao
 
 
 Distributed under the MIT License. See the `LICENSE` file for more information.
+
 
 
 
