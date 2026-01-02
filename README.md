@@ -79,8 +79,8 @@ This workflow demonstrates how to go from a raw video to a final statistical gra
 ## Output Files
 
 1.  **From AI Inference**:
-    -   `{video_name}_inference.mp4` / `_segmentation.mp4`: Videos showing the raw AI results.
-    -   `{video_name}_detections.csv` / `_segmentations.csv`: The data files for the next stage.
+    -   `{video_name}_inference.mp4`  Videos showing the raw AI results.
+    -   `{video_name}_detections.csv` The data files for the next stage.
 2.  **From Batch Annotation**:
     -   `{video_name}_with_tanks.csv`: The final "long-format" data file with tank numbers.
     -   `{video_name}_centroids_wide.csv`: The final "wide-format" data file for statistical software.
@@ -118,6 +118,7 @@ This application was developed in the **[Laboratory of Professor Chung-Der Hsiao
 
 
 Distributed under the MIT License. See the `LICENSE` file for more information.
+
 
 
 
