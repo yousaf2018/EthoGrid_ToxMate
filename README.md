@@ -18,6 +18,11 @@ Every stage of the EthoGrid_ToxMate pipeline is designed to be **transparent, cu
 
 ---
 
+## Installation Tutorial
+
+A step-by-step video guide for installing **EthoGrid ToxMate** is available on YouTube:
+
+👉 [Watch the installation tutorial](https://www.youtube.com/watch?v=pvYrgtg0WFg)
 
 ## The EthoGrid_ToxMate Philosophy: Speed and Control for Big Data
 
@@ -133,6 +138,7 @@ This application was developed in the **[Laboratory of Professor Chung-Der Hsiao
 
 
 Distributed under the MIT License. See the `LICENSE` file for more information.
+
 
 
 
