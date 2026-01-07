@@ -65,7 +65,7 @@ Designed specifically to address the challenges of long-duration recordings, Eth
 
 ## The Complete Workflow: A Step-by-Step Guide
 
-This workflow demonstrates how to go from a raw video to a final statistical graph.
+This workflow demonstrates how to go from a raw video to a tracked videos.
 
 1.  **Prepare Video (Optional)**: Use the **✂️ Video Splitter** to cut a long recording into 1-hour segments.
 2.  **Generate Tracking Data**: Use **🎨 Run YOLO Detection...** to run your trained model on the video segments. This produces a raw `_detections.csv` file for each.
@@ -141,6 +141,7 @@ This application was developed in the **[Laboratory of Professor Chung-Der Hsiao
 
 
 Distributed under the MIT License. See the `LICENSE` file for more information.
+
 
 
 
